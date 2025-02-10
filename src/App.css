@@ -14,6 +14,30 @@ body {
   font-weight: 600;
 }
 
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333547;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.navbar li {
+  margin: 0 20px;
+  list-style: none;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar li a:hover {
+  color: #4a90e2;
+}
+
 /* Home Section */
 .home {
   padding: 40px 20px;

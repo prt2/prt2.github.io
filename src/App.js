@@ -28,6 +28,8 @@ function App() {
       <nav>
         <ul className="navbar">
           <li><Link to="/">Home</Link></li>
+          <li><Link to="/skills">Skills</Link></li>
+          <li><Link to="/experience">Experience</Link></li>
         </ul>
       </nav>
 
