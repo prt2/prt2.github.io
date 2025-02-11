@@ -98,6 +98,52 @@ h1 {
   transition: opacity 0.3s ease;
 }
 
+/* Skills Section */
+.skills {
+  padding: 40px 20px;
+  background-color: #333547;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill-logo {
+  position: relative;
+  margin: 20px;
+  transition: transform 0.3s ease;
+}
+
+.skill-logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: opacity 0.3s ease;
+}
+
+.skill-logo:hover img {
+  opacity: 0.3;
+}
+
+.skill-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.2rem;
+  display: none;
+}
+
+.skill-logo:hover .skill-name {
+  display: block;
+}
+
 /* Experience Section */
 .experience {
   padding: 40px 20px;
