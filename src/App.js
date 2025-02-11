@@ -92,15 +92,18 @@ function Experience() {
       <ul>
         <li>
         <h3>🚨 ReportVan :</h3>
-          <p>Collaborated in a team of 5 to develop a high-performance, web-based emergency reporting system using Next.js with server-side rendering (SSR), achieving a Lighthouse score of 95 and 100% compliance with the Product Requirements Document (PRD).</p>
+          <p>Collaborated in a team of 5 to develop a high-performance, web-based emergency reporting system using Next.js with server-side rendering (SSR), achieving a Lighthouse score of 95 and 100% compliance with the Product Requirements Document (PRD).
+          </p>
+          <p>Check it out on GitHub: </p> <a href="https://github.com/ryotakc/cmpt272-project" target="_blank" rel="noopener noreferrer"><img src="/images/github.png" alt="GitHub" className="experience-logo"/></a>
+           
         </li>
         <li>
         <h3>🥗 StormForge by SFU Surge :</h3>
-          <p>Collaborating in a team of 4 to develop a mood-based food Tinder-like app.</p>
+          <p>Currently collaborating in a team of 4 to develop a mood-based food Tinder-like app.</p>
         </li>
         <li>
         <h3>📍 Hack-The-Sem 2025 by GDSC SFU:</h3>
-          <p>Collaborating in a team of 4 to develop a commute-friendly app. </p>
+          <p>Currently collaborating in a team of 4 to develop a commute-friendly app. </p>
         </li>
       </ul>
       <p>
