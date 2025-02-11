@@ -21,6 +21,65 @@ function Home() {
   );
 }
 
+// Skills Component
+function Skills() {
+  return (
+    <section className="skills">
+      <h2>My Skills</h2>
+      <h3>Languages</h3>
+      <div className="skills-container">
+      <div className="skill-logo">
+          <img src="/images/html.png" alt="HTML" />
+          <span className="skill-name">HTML</span>
+        </div>
+        <div className="skill-logo">
+          <img src="/images/css.png" alt="CSS" />
+          <span className="skill-name">CSS</span>
+        </div>
+        <div className="skill-logo">
+          <img src="/images/JS.png" alt="JavaScript" />
+          <span className="skill-name">JavaScript</span>
+        </div>
+        <div className="skill-logo">
+          <img src="/images/TS.png" alt="TypeScript" />
+          <span className="skill-name">TypeScript</span>
+        </div>
+        <div className="skill-logo">
+          <img src="/images/python.png" alt="Python" />
+          <span className="skill-name">Python</span>
+        </div>
+        <div className="skill-logo">
+          <img src="/images/C.png" alt="C" />
+          <span className="skill-name">C</span>
+        </div>
+        <div className="skill-logo">
+          <img src="/images/C++.png" alt="C++" />
+          <span className="skill-name">C++</span>
+        </div>
+        <div className="skill-logo">
+          <img src="/images/rust.png" alt="Rust" />
+          <span className="skill-name">Rust</span>
+        </div>
+        <div className="skill-logo">
+          <img src="/images/haskell.png" alt="Haskell" />
+          <span className="skill-name">Haskell</span>
+        </div>
+        <div className="skill-logo">
+          <img src="/images/nodeJS.jpeg" alt="NodeJS" />
+          <span className="skill-name">NodeJS</span>
+        </div>
+      </div>
+      <div>
+        <h3>Frameworks</h3>
+        <div className="skill-logo">
+          <img src="/images/react.jpeg" alt="React" />
+          <span className="skill-name">React</span>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // Experience Component
 function Experience() {
   return (
@@ -66,6 +125,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/skills" element={<Skills />} />
         <Route path="/experience" element={<Experience />} />
       </Routes>
     </Router>
