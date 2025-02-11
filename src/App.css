@@ -97,3 +97,46 @@ h1 {
   border-radius: 50%;
   transition: opacity 0.3s ease;
 }
+
+/* Experience Section */
+.experience {
+  padding: 40px 20px;
+  background-color: #2c2f3b;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.experience ul {
+  list-style-type: none;
+}
+
+.experience li {
+  padding: 12px 20px;
+  margin: 10px 0;
+  background-color: #444a63;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.experience li:hover {
+  background-color: #6e7eaa;
+}
+.resume-link {
+  margin: 0 15px;
+  color: #add1fb;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 1rem;
+  color: #a0a0b3;
+}
