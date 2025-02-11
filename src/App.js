@@ -21,6 +21,37 @@ function Home() {
   );
 }
 
+// Experience Component
+function Experience() {
+  return (
+    <section className="experience">
+      <h2>My Experience</h2>
+      <p>
+        I've had the privilege of working on a variety of exciting projects.
+        Here's a quick overview of some of my experiences:
+      </p>
+      <ul>
+        <li>
+        <h3>🚨 ReportVan :</h3>
+          <p>Collaborated in a team of 5 to develop a high-performance, web-based emergency reporting system using Next.js with server-side rendering (SSR), achieving a Lighthouse score of 95 and 100% compliance with the Product Requirements Document (PRD).</p>
+        </li>
+        <li>
+        <h3>🥗 StormForge by SFU Surge :</h3>
+          <p>Collaborating in a team of 4 to develop a mood-based food Tinder-like app.</p>
+        </li>
+        <li>
+        <h3>📍 Hack-The-Sem 2025 by GDSC SFU:</h3>
+          <p>Collaborating in a team of 4 to develop a commute-friendly app. </p>
+        </li>
+      </ul>
+      <p>
+        You can check out my <a href="your-resume.pdf" className= "resume-link" target="_blank" rel="noopener noreferrer">resume here</a>.
+      </p>
+      
+    </section>
+  );
+}
+
 // Main App Component
 function App() {
   return (
