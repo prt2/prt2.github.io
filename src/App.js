@@ -98,16 +98,16 @@ function Experience() {
            
         </li>
         <li>
-        <h3>🥗 StormForge by SFU Surge :</h3>
+        <h3>🥗 StormForge by<a href = "https://sfusurge.com/" className= "resume-link">SFU Surge</a> :</h3>
           <p>Currently collaborating in a team of 4 to develop a mood-based food Tinder-like app.</p>
         </li>
         <li>
-        <h3>📍 Hack-The-Sem 2025 by GDSC SFU:</h3>
+        <h3>📍 Hack-The-Sem 2025 by<a href = "https://go.sfss.ca/clubs/878/info" className= "resume-link">GDSC SFU</a> :</h3>
           <p>Currently collaborating in a team of 4 to develop a commute-friendly app. </p>
         </li>
       </ul>
       <p>
-        You can check out my <a href="./public/docs/MYresume.pdf" className= "resume-link" target="_blank" rel="noopener noreferrer">resume here</a>.
+        You can check out my<a href="./public/docs/MYresume.pdf" className= "resume-link" target="_blank" rel="noopener noreferrer">resume here</a>.
       </p>
       
     </section>
