@@ -29,3 +29,4 @@ jobs:
         with:
           branch: gh-pages  # Deploys to gh-pages branch
           folder: build      # Deploys the build folder
+          token: ${{ secrets.GH_TOKEN }}  # Use the token from GitHub Secrets
