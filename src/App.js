@@ -107,7 +107,7 @@ function Experience() {
         </li>
       </ul>
       <p>
-        You can check out my<a href="./public/docs/MYresume.pdf" className= "resume-link" target="_blank" rel="noopener noreferrer">resume here</a>.
+        You can check out my<a href="https://github.com/prt2/prt2.github.io/raw/b75b872ea0a252584278f437514a0edfbc454248/public/docs/MYresume.pdf" className= "resume-link" target="_blank" rel="noopener noreferrer">resume here</a>.
       </p>
       
     </section>
